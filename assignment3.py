@@ -48,7 +48,6 @@ print(stack)
 q1=deque(["am","tt","ee","jj"])
 q1.append("amrit")
 print(q1.popleft())
-print(q1.popright())
 
 
 7.
