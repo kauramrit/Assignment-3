@@ -61,3 +61,35 @@ for i in a:
         b=b+1
 print("even no =",c)
 print("odd no =",b)
+
+
+8.
+# Print tuple in reverse order
+a=('apple','banana','mango','orange','cherry')
+print(a[ ::-1])
+
+
+9.
+# Find largest and smallest element in a tuple
+print("largest element",max(a))
+print("Smallest element",min(a));
+
+
+10.
+# Convert a string into Uppercase
+a=input("enter string")
+print(a.upper())
+
+
+11.
+# Check if string contains all numeric characters
+a=input("enter string")
+print(a.isnumeric())
+
+
+12.
+# Replace the word "World" with your name in string "Hello World"
+c="Hello World"
+d=c.replace("World","Amrit")
+print(d)
+
